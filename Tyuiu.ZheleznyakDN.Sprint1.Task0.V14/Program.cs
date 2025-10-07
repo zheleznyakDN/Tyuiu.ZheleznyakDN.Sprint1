@@ -4,6 +4,6 @@ internal class Program
     private static void Main(string[] args)
     {
         DataService ds = new DataService();
-        Console.WriteLine("результат " + ds.Calculate());
+        Console.WriteLine("результат " + ds.Calculate()); 
     }
 }
